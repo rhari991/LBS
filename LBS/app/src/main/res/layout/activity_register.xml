@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your details :"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name :"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNameField"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail address :"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailField"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="password :"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordField"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addressField"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number :"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneNumberField"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of birth :"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/dobField"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender :"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/genderField"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Class :"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/classField"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year:"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/yearField"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/sendUserDataButton"/>
+
+    </LinearLayout>
+</ScrollView>

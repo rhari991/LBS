@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LBS</string>
+    <string name="searchable_label">LBS</string>
+    <string name="searchable_hint">Enter book/author\'s name</string>
+    <string name="menu_item_title">Search</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string-array name="nav_drawer_items">
+        <item >Issued Books</item>
+        <item >Logout</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/issued_books_icon</item>
+        <item>@drawable/logout_icon</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
